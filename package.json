@@ -1,0 +1,15 @@
+{
+  "name": "html5-localstorage-master",
+  "version": "1.0.0",
+  "description": "## Features - Basic CRUD (Create, Read, Update, Delete) - Two way data binding like function in JQuery - Basic Bootstrap 4 forms component - Local storage serves as database - Sass for styling component",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

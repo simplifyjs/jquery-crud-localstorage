@@ -1,0 +1,51 @@
+%centeredblock {
+  margin: 15px auto; 
+  padding: 15px;
+  max-width: 960px;
+}
+%formlabel {
+  min-width: 80px;
+  text-align: left;
+}
+
+article {
+  &.row {
+    max-width: 100%;
+    display: block;
+    @extend %centeredblock;
+  }
+}
+h1 {
+  @extend %centeredblock;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+form {
+  padding: 15px 10px;
+  border: 1px solid #CACACA;
+  border-radius: 10px;
+  
+  & label {
+    @extend %formlabel;
+  }
+  & .input-group-addon {
+    @extend %formlabel;
+  }
+  & .input-group {
+    margin-bottom: 10px;
+  }
+
+}
+
+.table-holder {
+  padding: 10px 20px;
+}
+.table {
+  @extend %centeredblock;
+  
+  & img {
+    margin: 3px 10px;
+  }
+}

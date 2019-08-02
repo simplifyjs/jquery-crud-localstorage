@@ -1,0 +1,31 @@
+article.row, h1, .table {
+  margin: 15px auto;
+  padding: 15px;
+  max-width: 960px; }
+
+form label, form .input-group-addon {
+  min-width: 80px;
+  text-align: left; }
+
+article.row {
+  max-width: 100%;
+  display: block; }
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 60px; }
+
+form {
+  padding: 15px 10px;
+  border: 1px solid #CACACA;
+  border-radius: 10px; }
+  form .input-group {
+    margin-bottom: 10px; }
+
+.table-holder {
+  padding: 10px 20px; }
+
+.table img {
+  margin: 3px 10px; }
